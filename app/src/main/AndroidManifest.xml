@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akd.studenthub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.akd.studenthub.NavaidRizviSirDetails"></activity>
+        <activity android:name="com.akd.studenthub.Photos" />
+        <activity android:name="com.akd.studenthub.YogaActivity" />
+        <activity android:name="com.akd.studenthub.TechnoClubActivity" />
+        <activity android:name="com.akd.studenthub.FashionActivity" />
+        <activity android:name="com.akd.studenthub.PhotographyActivity" />
+        <activity android:name="com.akd.studenthub.ThaskaActivity" />
+        <activity android:name="com.akd.studenthub.NoticeActivity" />
+        <activity android:name="com.akd.studenthub.BooksActivity" />
+        <activity android:name="com.akd.studenthub.DramaticsActivity" />
+        <activity android:name="com.akd.studenthub.MusicClubActivity" />
+        <activity android:name="com.akd.studenthub.AboutActivity" />
+        <activity android:name="com.akd.studenthub.ExtrasACtivity" />
+        <activity android:name="com.akd.studenthub.ClubsImageViewActivity" />
+        <activity android:name="com.akd.studenthub.ChooseDanceClubActvity" />
+        <activity android:name="com.akd.studenthub.DanceClubActivity" />
+        <activity android:name="com.akd.studenthub.Mentor_1_Details_Activity" />
+        <activity android:name="com.akd.studenthub.QuestionPaperActivity" />
+        <activity android:name="com.akd.studenthub.BlogsActivity" />
+        <activity android:name="com.akd.studenthub.MentorActivity" />
+        <activity android:name="com.akd.studenthub.AchiementsActivity" />
+        <activity android:name="com.akd.studenthub.WebViewNotesActivity" />
+        <activity android:name="com.akd.studenthub.NotesBtech" />
+        <activity android:name="com.akd.studenthub.NotesActivity" />
+        <activity android:name="com.akd.studenthub.CalendarActivity" />
+        <activity android:name="com.akd.studenthub.DetailedNews" />
+        <activity android:name="com.akd.studenthub.JoinSocietiesActivity" />
+        <activity android:name="com.akd.studenthub.NewsActivity" />
+        <activity android:name="com.akd.studenthub.EventsActivity" />
+        <activity android:name="com.akd.studenthub.ImageViewActivity" />
+        <activity android:name="com.akd.studenthub.CommentViewActivity" />
+        <activity android:name="com.akd.studenthub.AddNewPostActivity" />
+        <activity android:name="com.akd.studenthub.ViewUserProfilesActivity" />
+        <activity android:name="com.akd.studenthub.AllUsersActivity" />
+        <activity android:name="com.akd.studenthub.ProfileActivity" />
+        <activity android:name="com.akd.studenthub.EditProfileActivity" />
+        <activity android:name="com.akd.studenthub.SignupActivity" />
+        <activity android:name="com.akd.studenthub.LoginActivity" />
+        <activity android:name="com.akd.studenthub.ChooseLoginRegistrationActivity" />
+        <activity android:name="com.akd.studenthub.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.akd.studenthub.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="com.akd.studenthub.Notifications.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.akd.studenthub.Notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Student Hub</string>
+
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+
+    <string name="QpapersHyperlink">Contribute To <a href="https://drive.google.com/drive/folders/14oasw8y7AQNhP692HdUdjEEc8EfStiWr?usp=sharing">Question Papers</a></string>
+    <string name="notesHyperlink">Contribute To <a href="https://drive.google.com/drive/folders/10W08SFjiVmta-3p-N2Hjy8n1VygTqj-l?usp=sharing">Notes</a></string>
+
+</resources>

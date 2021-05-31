@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "821877622479",
+    "firebase_url": "https://gbu-students-hub.firebaseio.com",
+    "project_id": "gbu-students-hub",
+    "storage_bucket": "gbu-students-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821877622479:android:4f9bc78f4e2d5d0142d9ba",
+        "android_client_info": {
+          "package_name": "com.akd.studenthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821877622479-puri73afgojcaom4kcl0are2r7fd50to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akd.studenthub",
+            "certificate_hash": "4e45cce32163e40612a128d7f92f82db88b1f624"
+          }
+        },
+        {
+          "client_id": "821877622479-49knf6cbvp7qdte3ubk648s382poheds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnB6-tcZGqjyQDlkfouJHpgrRJSK32y3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821877622479-49knf6cbvp7qdte3ubk648s382poheds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821877622479:android:fda9db171c4738bf42d9ba",
+        "android_client_info": {
+          "package_name": "com.example.syllabusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821877622479-0fo993n0gp9visvkl3190hfkeiqang82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syllabusapp",
+            "certificate_hash": "ca34dd129ef5e62f2800331e5e8f19a2515bb21f"
+          }
+        },
+        {
+          "client_id": "821877622479-ae7a7ec4dtflshppcbu3jjk34tjh41j7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syllabusapp",
+            "certificate_hash": "1f15e53a4c0356cac00fa06de0fdd5f5a702be57"
+          }
+        },
+        {
+          "client_id": "821877622479-49knf6cbvp7qdte3ubk648s382poheds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnB6-tcZGqjyQDlkfouJHpgrRJSK32y3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821877622479-49knf6cbvp7qdte3ubk648s382poheds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

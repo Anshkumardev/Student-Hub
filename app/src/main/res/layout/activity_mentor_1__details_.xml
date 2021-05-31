@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mentor_1_Details_Activity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#a9a9a9"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#a9a9a9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+    <ImageView
+        android:id="@+id/backImageMentorsDetails"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logout" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shlogo" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pradeeptomarsir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Dr. Pradeep Tomar"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="parry.tomar@gmail.com "
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Pradeep Tomar is working as Assistant Professor in the School of Information and Communication Technology, Gautam Buddha University, Greater Noida, U.P., India since 2009. Dr. Tomar earned his Ph.D. from MDU, Rohtak, Haryana, India. Dr. Tomar has excellent teaching, research and software development experience as well as vast administrative experience at university level on various posts like HOD Computer Science and Engineering, Chairperson Admission, Vice Chairperson, Admissions, Research Coordinator, Examination Coordinator, University Coordinator, Admission, Time Table Coordinator, Proctor and Hostel Warden. He qualified the National Eligibility Test (NET) for Lecturership in Computer Applications in 2003, Microsoft Certified Professional (MCP) in 2008, SUN Certified Java Programmer (SCJP) for the Java platform, standard edition 5.0 in 2008 and qualified the IBM Certified Database Associate - DB2 9 Fundamentals in 2010.\n\n
+
+Dr. Tomar was awarded Bharat Jyoti Award by India International Friendship Society in the field of Technology in 2012 and Bharat Vikas Award by Institute of Self Reliance in National Seminar on Diversity of Cultural and Social Environment at Bhubaneswar, Odisha, in 2017. He has been awarded for the Best Computer Faculty award by Govt. of Pondicherry and ASDF society.\n\n
+
+Apart from teaching, he is running a programming club for ICT students and he is guiding various research scholars in the areas of software engineering, reusability of code, soft computing technique, Big Data, and IoT. His major current research interest is in Component-Based Software Engineering. He is working as Co-investigator in a sponsored research project in High throughput design, synthesis and validation of TALENs for targeted Genome Engineering, funded by Department of Biotechnology, Ministry of Science and Technology Government of India. Two books “Teaching of Mathematics” and “Communication and Information Technology” at national levels, three books “Examining Cloud Computing Technologies through the Internet of Things (IoT)”, “Handbook of Research on Big Data and the IoT”, “Green and Smart Technologies for Smart Cities” at international level are authored and edited by Dr. Tomar. He has also contributed more than 100 papers/articles in national/international journals and conferences.\n\n
+" />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Connect with me "
+        app:layout_constraintBottom_toTopOf="@+id/mailImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/mailImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gmaillogo" />
+
+    <ImageView
+        android:id="@+id/whatsappImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/mailImage"
+        app:layout_constraintTop_toTopOf="@+id/mailImage"
+        app:srcCompat="@drawable/whatsapplogo" />
+
+    <ImageView
+        android:id="@+id/linkedinImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/mailImage"
+        app:layout_constraintTop_toTopOf="@+id/mailImage"
+        app:srcCompat="@drawable/linkedinlogo" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Mentor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
